@@ -26,7 +26,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
-
+  site: 'https://fhirdepartment.github.io/public-website/',
   integrations: [
     tailwind({
       applyBaseStyles: false,
